@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Clearbit Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h1 class="my-4 text-center text-primary">Clearbit Demo</h1>
+
+          <form class="form-inline mb-4">
+            <input class="form-control flex-grow-1" id="clearbit-email" type="text" placeholder="Stalk someone! 👀" />
+            <input class="btn btn-primary" id="clearbit-submit" type="submit" />
+          </form>
+
+          <table class="table table-bordered">
+            <tr>
+              <td class="w-25">👤 Name:</td>
+              <td id="user-name"></td>
+            </tr>
+            <tr>
+              <td class="w-25">✉️ Email:</td>
+              <td id="user-email"></td>
+            </tr>
+            <tr>
+              <td class="w-25">📝 Bio:</td>
+              <td id="user-bio"></td>
+            </tr>
+            <tr>
+              <td class="w-25">📍 Location:</td>
+              <td id="user-location"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="build/application.js"></script>
+  </body>
+</html>
