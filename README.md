@@ -23,4 +23,4 @@ fetch(url, {
 })
 ```
 
-- Once you are done with your version, you can check another possible solution [here](https://github.com/gabrielecanepa/clearbit/blob/solution/lib/clearbit.js)
+Once you are done with your version, you can check another possible solution in the [`clearbit` branch](https://github.com/gabrielecanepa/clearbit/blob/solution/lib/clearbit.js).
